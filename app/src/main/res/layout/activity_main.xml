@@ -9,7 +9,11 @@
     <EditText
         android:id="@+id/input_number_EditText"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="230dp"
+=======
+        android:layout_height="200dp"
+>>>>>>> df632d71a2cbb6dfc0a5d4eecf07b9d287bff6e2
         android:focusable="false"
         android:gravity="right"
         android:hint="1234"
@@ -22,8 +26,14 @@
     <TextView
         android:id="@+id/result_TextView"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="230dp"
         android:gravity="end|bottom"
+=======
+        android:layout_height="200dp"
+        android:gravity="end|bottom"
+        android:hint="4321"
+>>>>>>> df632d71a2cbb6dfc0a5d4eecf07b9d287bff6e2
         android:paddingBottom="30dp"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <GridLayout
+<<<<<<< HEAD
         android:id="@+id/number_buttonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -210,6 +221,117 @@
             android:backgroundTint="@color/green"
             android:background="@drawable/round_button"
             style="@style/buttonTextStyle"/>
+=======
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:useDefaultMargins="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="4"
+        android:padding="8dp"
+        android:rowCount="5"
+        app:layout_constraintTop_toBottomOf="@+id/input_number_EditText">
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bracket_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clear_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+>>>>>>> df632d71a2cbb6dfc0a5d4eecf07b9d287bff6e2
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
